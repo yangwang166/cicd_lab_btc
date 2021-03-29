@@ -42,11 +42,11 @@ jobs:
 
       - name: Deploy integration test
         run: |
-          dbx deploy --jobs=cicd_lab_btc-sample-integration-test --files-only
+          dbx deploy --jobs=cicd_lab_btc-sample-integration-test
 
       - name: Run integration test
         run: |
-          dbx launch --job=cicd_lab_btc-sample-integration-test --as-run-submit --trace
+          dbx launch --job=cicd_lab_btc-sample-integration-test --trace
 
 
 
