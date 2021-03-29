@@ -24,6 +24,7 @@ class SampleJobIntegrationTest(unittest.TestCase):
             .load(self.test_config["output_path"])
             .count()
         )
+        print("In integration test")
 
         self.assertGreater(output_count, 0)
 
