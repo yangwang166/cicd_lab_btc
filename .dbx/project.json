@@ -1,0 +1,9 @@
+{
+  "environments": {
+    "default": {
+      "profile": "azure-dev1",
+      "workspace_dir": "/Shared/dbx/cicd_lab_btc",
+      "artifact_location": "dbfs:/Shared/dbx/projects/cicd_lab_btc"
+    }
+  }
+}
